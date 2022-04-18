@@ -1,0 +1,53 @@
+.card {
+  margin-top: 15px;
+  border: 3px solid black;
+  width: 400px;
+  height: 500px;
+  padding: 45px;
+  position: absolute;
+  top: 15%;
+  left: 65%;
+}
+
+input {
+  margin-bottom: 60px;
+  border: 3px solid black;
+}
+
+label {
+  margin-bottom: 20px;
+  font-size: larger;
+}
+
+button {
+  margin-bottom: 50px;
+  font-size: larger;
+}
+
+a {
+  font-size: larger;
+}
+
+.leftbox {
+  position: absolute;
+  left: auto;
+  width: 600px;
+  height: 500px;
+  border: 3px solid black;
+  margin-top: 130px;
+  margin-left: 100px;
+}
+
+p {
+  padding: 50px;
+  font-size: x-large;
+  margin-right: 90px;
+}
+
+.line {
+  border-left: 3px solid black;
+  height: 500px;
+  position: absolute;
+  left: 53%;
+  margin-top: 130px;
+}

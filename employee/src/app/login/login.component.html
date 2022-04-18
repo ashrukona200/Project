@@ -1,0 +1,32 @@
+<div>
+  <div class="leftbox">
+    <p>Some basic points about what the app does</p>
+  </div>
+  <div class="line"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="text-center">
+            <form [formGroup]="loginForm" (ngSubmit)="logIn()">
+              <div class="form-group">
+                <label><b>Email</b></label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                  placeholder="Enter Your Email" formControlName="email">
+              </div>
+              <div class="form-group">
+                <label><b>Password</b></label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Your Password"
+                  formControlName="password">
+              </div>
+              <button type="submit" class="btn btn-primary">Login</button>
+            </form>
+
+            <a routerLink="/signup">Not a member? Register yourself!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
